@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    z-index: 10;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 15px 0.3px rgb(216, 215, 215) ;
+}
+.nav1{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav1>img{
+    height: 50px;
+    width: 50px;
+}
+.nav2{
+    flex-basis: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav3{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav4{
+    flex-basis: 20% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav2>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.nav2>ul>.content{
+    list-style: none;
+}
+.nav2>ul>.content>a{
+    text-decoration: none;
+    color: black;
+}
+.nav2>ul>.content>a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 0px;
+}
+.nav2>ul>.content>.col1:hover{
+ border-bottom: 3px solid #ee5f73;
+}
+.nav2>ul>.content>.col2:hover{
+ border-bottom: 3px solid #ee5f73;
+}
+.nav2>ul>.content>.col3:hover{
+ border-bottom: 3px solid #f26a10;
+}
+.nav2>ul>.content>.col4:hover{
+ border-bottom: 3px solid #f2c210;
+}
+.nav2>ul>.content>.col5:hover{
+ border-bottom: 3px solid #0db7af;
+}
+.nav2>ul>.content>.col6:hover{
+ border-bottom: 3px solid #ee5f73;
+}
+.nav2>ul>.content>a>sup{
+    color: red;
+    font-size: 10px;
+}
+.nav3>button{
+    height: 40px;
+    width: 35px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color:   #f2f2ff;
+
+}
+.nav3>input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 0px 5px 5px 0px ;
+    background-color:  #f2f2ff;
+    outline: none;
+}
+/* .nav3>input:focus{
+    background-color: white;
+    outline: 0.5px rgb(228, 228, 228) solid;
+}
+.nav3>#buttonn:focus,input:focus{
+    background-color: white;
+    outline: 0.5px rgb(228, 228, 228) solid;
+} */
+.nav4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav4>div{
+    width: 100%;
+}
+.nav4>div>ul{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav4>div>ul>li{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+   
+}
+.nav4>div>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+/* -----------------------------------------------longimgs-------------------------------------------------- */
+
+.longimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+}
+.longimg>.imgg1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+.longimg>.imgg1>a{
+    width: 100%;
+}
+.longimg>.imgg1>a>img{
+    width: 100%;
+}
+.longimg>.imgg2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.longimg>.imgg2>a>img{
+    width: 100%; 
+    height: 350px;
+}
+.longimg>.imgg3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.longimg>.imgg3>a{
+    width: 100%;
+}
+.longimg>.imgg3>a>img{
+    width: 100%; 
+}
+.longimg>.imgg4>a>img{
+    width: 100%; 
+}
+.longimg>.imgg5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.longimg>.imgg5>a>img{
+    width: 100%; 
+}
+.longimg>.imgg6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.longimg>.imgg6>a>img{
+    width: 100%; 
+}
+/* -----------------------------------------------grid img------------------------------------------------- */
+
+.gridimg{
+    margin: 20px 100px 20px 100px;
+    display: grid;
+    grid-template-rows:350px ;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-areas: "one two three four";
+}
+.gridimg>article>a>img{
+    height: 350px;
+    width: 300px;
+}
+
+.gridimg>.pic1{
+    grid-area: one;
+}
+.gridimg>.pic2{
+    grid-area: two;
+}
+.gridimg>.pic3{
+    grid-area: three;
+}
+.gridimg>.pic4{
+    grid-area: four;
+}
+/* ------------------------------------------------gridcollege-------------------------------------------------------- */
+
+.colltopimg{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    width: 90vw;
+    padding-left: 100px;
+
+}
+.colldownimg{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    width: 90vw;
+
+}
+.college {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    width: 90vw;
+
+}
+
+.colltopimg>img {
+    width: 100%;
+}
+
+.college {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.college>.collimg>img {
+    height: 200px;
+    width: 200px;
+}
+
+.colldownimg>img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+/* ------------------------------------------4 text area------------------------------------------------- */
+.colorcolor{
+    background-color: #f5f5f6;}
+.textarea1 {
+    margin: 20px 100px 20px 100px;
+    height: 530px;
+
+}
+
+.textarea1>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textarea1>ul>.list1 {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list1>ul>.listhead1 {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #696b79;
+}
+
+.textarea1>ul>.list1>ul>.listhead2 {
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #696b79;
+}
+
+.textarea1>ul>.list2 {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.textarea1>ul>.list2>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list2>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+
+
+}
+
+.textarea1>ul>.list2>ul>li>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list2>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #696b79;
+
+}
+
+.textarea1>ul>.list3 {
+    list-style: none;
+    padding: 4px 0px;
+}
+
+.textarea1>ul>.list3>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>ul>li {
+    text-decoration: none;
+    color: #696b79;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>ul>li>a>img {
+    width: 150px;
+    height: 50px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #696b79;
+}
+.textarea1>ul>.list3>ul>li>ul>li>ul>.lsimg>a>img {
+width: 50px;
+height: 30px;
+}
+.textarea1>ul>.list3>ul>li>ul>li>ul{
+   display: flex;
+}
+.textarea1>ul>.list4{
+    list-style: none;
+    display: grid;
+    grid-template-rows: 50px 20px 50px;
+    grid-template-columns: 70px 250px;
+    grid-template-areas:
+    "one two"
+    "one two"
+    "four five" ;
+}
+.textarea1>ul>.list4>.grid1{
+    grid-area: one;
+    margin-top: 26px;
+}
+.textarea1>ul>.list4>.grid1>img{
+    width: 50px;
+    height: 50px;
+}
+.textarea1>ul>.list4>.grid2{
+    grid-area: two;
+    margin-top: 26px;
+}
+.textarea1>ul>.list4>.grid2>p{
+    color: #696b79;
+    font-size: 17px;
+}
+.textarea1>ul>.list4>.grid2>p>span{
+    color: #282c3f;
+    font-size: 17px;
+    margin-top: px;
+    font-weight: bold;
+}
+.textarea1>ul>.list4>.grid4{
+    grid-area: four;
+    margin-top: 26px;
+
+}
+.textarea1>ul>.list4>.grid4>img{
+    width: 50px;
+    height: 50px;
+}
+.textarea1>ul>.list4>.grid5>p{
+    color: #696b79;
+    font-size: 17px;
+    margin-top: 26px;
+
+}
+.textarea1>ul>.list4>.grid5>p>span{
+    color: #282c3f;
+    font-size: 17px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------text area start--------------------------------------------------- */
+
+.textpara01{
+    margin: 20px 100px 20px 100px;
+    position: relative;
+
+}
+.textpara01>h4{
+    position: absolute;
+    top: -8px;
+    background-color: white;
+    display: inline-block;
+    color: #282c3f;
+    background-color: #f5f5f6;
+}
+.textpara01>p{
+    background-color: white;
+    color: #696b79;
+    text-align: justify;
+    background-color: #f5f5f6;
+}
+.textpara01>ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.textpara01>ul>li{
+    list-style: none;
+    color: #696b79;
+}
+.textpara01>ul>li>a{
+    color: #319de6;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.address{
+    margin: 20px 100px 20px 100px;
+}
+.address>table{
+    color: #696b79;
+}
+.address>b{
+    color: #282c3f;
+
+}
+.textsonly{
+    margin: 20px 100px 20px 100px;
+}
+.textsonly>.h5tag{
+    color: #282c3f;
+    font-size: 16px;
+}
+.textsonly>.paratag{
+    color: #696b79;
+}
+.textsonly>ol>li{
+    margin-left: 50px;
+}
+.textsonly>ol>li>p>b{
+    color: #282c3f;
+}
+.textsonly>ol>li>p{
+    color: #696b79;
+}
+.textsonly>ul>li{
+    color: #696b79;
+    margin-left: 50px;
+
+}
+.flat{
+    position: relative
+}
+.flat>h1{
+    background-color: #535766;
+    height: 50px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translateX(312px)rotate(270deg);
+    position: fixed;
+    top: 300px;
+    right: 226px;
+    color: white;
+    z-index: 5;
+}

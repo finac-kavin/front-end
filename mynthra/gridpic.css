@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gridimg{
+    margin: 20px 100px 20px 100px;
+    display: grid;
+    grid-template-rows:350px ;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-areas: "one two three four";
+}
+.gridimg>article>a>img{
+    height: 350px;
+    width: 300px;
+}
+
+.gridimg>.pic1{
+    grid-area: one;
+}
+.gridimg>.pic2{
+    grid-area: two;
+}
+.gridimg>.pic3{
+    grid-area: three;
+}
+.gridimg>.pic4{
+    grid-area: four;
+}

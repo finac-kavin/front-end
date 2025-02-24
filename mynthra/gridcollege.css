@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colltopimg{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    width: 90vw;
+    padding-left: 100px;
+
+}
+.colldownimg{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    width: 90vw;
+
+}
+.college {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    width: 90vw;
+
+}
+
+.colltopimg>img {
+    width: 100%;
+}
+
+.college {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.college>.collimg>img {
+    height: 200px;
+    width: 200px;
+}
+
+.colldownimg>img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}

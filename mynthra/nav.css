@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 15px 0.3px rgb(216, 215, 215) ;
+}
+.nav1{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav1>img{
+    height: 50px;
+    width: 50px;
+}
+.nav2{
+    flex-basis: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav3{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav4{
+    flex-basis: 20% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav2>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.nav2>ul>.content{
+    list-style: none;
+}
+.nav2>ul>.content>a{
+    text-decoration: none;
+    color: black;
+}
+.nav2>ul>.content>a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 0px;
+}
+.nav2>ul>.content>.col1:hover{
+ border-bottom: 3px solid #ee5f73;
+}
+.nav2>ul>.content>.col2:hover{
+ border-bottom: 3px solid #ee5f73;
+}
+.nav2>ul>.content>.col3:hover{
+ border-bottom: 3px solid #f26a10;
+}
+.nav2>ul>.content>.col4:hover{
+ border-bottom: 3px solid #f2c210;
+}
+.nav2>ul>.content>.col5:hover{
+ border-bottom: 3px solid #0db7af;
+}
+.nav2>ul>.content>.col6:hover{
+ border-bottom: 3px solid #ee5f73;
+}
+.nav2>ul>.content>a>sup{
+    color: red;
+    font-size: 10px;
+}
+.nav3>button{
+    height: 40px;
+    width: 35px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color:   #f2f2ff;
+
+}
+.nav3>input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 0px 5px 5px 0px ;
+    background-color:  #f2f2ff;
+    outline: none;
+}
+/* .nav3>input:focus{
+    background-color: white;
+    outline: 0.5px rgb(228, 228, 228) solid;
+}
+.nav3>#buttonn:focus,input:focus{
+    background-color: white;
+    outline: 0.5px rgb(228, 228, 228) solid;
+} */
+.nav4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav4>div{
+    width: 100%;
+}
+.nav4>div>ul{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav4>div>ul>li{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+   
+}
+.nav4>div>ul>li>a{
+    text-decoration: none;
+    color: black;
+}

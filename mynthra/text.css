@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.textarea1 {
+    margin: 10px 100px 10px 100px;
+    height: 800px;
+
+}
+
+.textarea1>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textarea1>ul>.list1 {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list1>ul>.listhead1 {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead1>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #696b79;
+}
+
+.textarea1>ul>.list1>ul>.listhead2 {
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+
+
+}
+
+.textarea1>ul>.list1>ul>.listhead2>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #696b79;
+}
+
+.textarea1>ul>.list2 {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.textarea1>ul>.list2>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list2>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+
+
+}
+
+.textarea1>ul>.list2>ul>li>ul>li {
+    list-style: none;
+    padding: 4px 0px;
+
+}
+
+.textarea1>ul>.list2>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #696b79;
+
+}
+
+.textarea1>ul>.list3 {
+    list-style: none;
+    padding: 4px 0px;
+}
+
+.textarea1>ul>.list3>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 13px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>ul>li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>ul>li {
+    text-decoration: none;
+    color: #696b79;
+}
+
+.textarea1>ul>.list3>ul>li>ul>li>ul>li>a>img {
+    width: 150px;
+    height: 50px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #696b79;
+}
+.textarea1>ul>.list3>ul>li>ul>li>ul>.lsimg>a>img {
+width: 50px;
+height: 30px;
+}
+.textarea1>ul>.list3>ul>li>ul>li>ul{
+   display: flex;
+}
+.textarea1>ul>.list4{
+    list-style: none;
+    display: grid;
+    grid-template-rows: 50px 20px 50px;
+    grid-template-columns: 70px 250px;
+    grid-template-areas:
+    "one two"
+    "one two"
+    "four five" ;
+}
+.textarea1>ul>.list4>.grid1{
+    grid-area: one;
+    margin-top: 26px;
+}
+.textarea1>ul>.list4>.grid1>img{
+    width: 50px;
+    height: 50px;
+}
+.textarea1>ul>.list4>.grid2{
+    grid-area: two;
+    margin-top: 26px;
+}
+.textarea1>ul>.list4>.grid2>p{
+    color: #696b79;
+    font-size: 17px;
+}
+.textarea1>ul>.list4>.grid2>p>span{
+    color: #282c3f;
+    font-size: 17px;
+    margin-top: px;
+    font-weight: bold;
+}
+.textarea1>ul>.list4>.grid4{
+    grid-area: four;
+    margin-top: 26px;
+
+}
+.textarea1>ul>.list4>.grid4>img{
+    width: 50px;
+    height: 50px;
+}
+.textarea1>ul>.list4>.grid5>p{
+    color: #696b79;
+    font-size: 17px;
+    margin-top: 26px;
+
+}
+.textarea1>ul>.list4>.grid5>p>span{
+    color: #282c3f;
+    font-size: 17px;
+    margin-top: 30px;
+    font-weight: bold;
+}
